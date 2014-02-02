@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.2'
-gem 'bootstrap-sass', '2.3.2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -26,6 +25,7 @@ group :assets do
 	gem 'jquery-rails', '3.0.4'
 	gem 'turbolinks', '1.1.1'
 	gem 'jbuilder', '1.0.2'
+	gem 'bootstrap-sass', '2.3.2.0'
 end
 
 group :doc do
