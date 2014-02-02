@@ -68,5 +68,8 @@ module SampleApp
     #include bootstrap
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 
+    #get rid of error
+    I18n.enforce_available_locales = true
+
   end
 end
