@@ -3,6 +3,8 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby', '3.1.2'
+gem 'pg'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -34,7 +36,6 @@ end
 
 group :production do
   gem 'rails_12factor', '0.0.2'
-  gem 'pg'
 end
 
 
